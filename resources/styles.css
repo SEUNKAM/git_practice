@@ -1,0 +1,63 @@
+html, body {
+    display: block;
+    background-color: black;
+    max-width: 960px;
+    margin: auto;
+}
+
+
+h1, h2 {
+    color: whitesmoke;
+}
+
+   h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+}
+.header {
+    text-align: center;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+thead {
+    background-color: mediumslateblue;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+table {
+   
+   
+    text-align: start;
+    border-spacing: 2px;
+    font-variant: normal;
+}
+
+td {
+    padding-right: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+tbody {
+    color: white;
+    font-size: larger;
+}
+
+tr:nth-child(even) {
+    background-color: forestgreen;
+}
+
